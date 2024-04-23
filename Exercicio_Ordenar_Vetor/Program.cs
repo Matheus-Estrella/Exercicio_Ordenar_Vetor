@@ -3,14 +3,27 @@
  */
 const int MAX = 5;
 float[] numeros = new float[MAX];
-int i, j=(MAX-1), maior = 0;
+int i, j=(MAX-1), maior = 0, op = 0;
 float aux = 0;
 float[] numeros_ordenados = new float[MAX];
 
+do
+{
+    Console.WriteLine("\nDeseja inserir valores:\n\n1-) Manualmente\n2-) Aleatóriamente\n");
+    op = int.Parse(Console.ReadLine());
+} while ((op < 1) || (op > 2));
+
 for (i = 0; i < MAX; i++)
 {
-    Console.Write($"\nDigite o {(i+1)}º número: ");
-    numeros[i] = float.Parse( Console.ReadLine() );
+    if(op == 1)
+    {
+        Console.Write($"\nDigite o {(i + 1)}º número: ");
+        numeros[i] = float.Parse(Console.ReadLine());
+    }
+    else
+    {
+        numeros[i] = new Random().Next(0, 100);
+    }
     numeros_ordenados[i] = numeros[i];
 }
 do
