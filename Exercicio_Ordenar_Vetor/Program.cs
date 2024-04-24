@@ -1,7 +1,7 @@
 ﻿/*
  3-) Faça um programa que leia cinco números, guarde-os num vetor, e ordene-os de forma crescente em um novo vetor.
  */
-const int MAX = 50;
+const int MAX = 10;
 float[] numeros = new float[MAX];
 int i, j=(MAX-1), maior = 0, op = 0;
 float aux = 0;
