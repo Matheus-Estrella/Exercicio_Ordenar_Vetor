@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercicio_Ordenar_Vetor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f511e68b6a3e47db5f31af46b42b38f840f9fa17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c6c4517b9f9311bbea7f26c60ef51c35fd580b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercicio_Ordenar_Vetor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercicio_Ordenar_Vetor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
